@@ -1,0 +1,323 @@
+body {
+    margin:0;
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+    color: green;
+    font-size: 100px;
+    z-index: 20;
+    position: absolute;
+    top: 135px;
+    text-align: center;
+}
+
+
+.search {
+    margin: auto;
+    border: 1px solid grey;
+    border-radius: 30px;
+    width: 600px;
+    height: 40px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    border: none;
+    border-radius: 30px;
+    width: 600px;
+    outline: none;
+    padding-left: 30px;
+}
+
+button {
+    border-radius: 30px;
+    border: none;
+    background-color: grey;
+    color: white;
+    padding-right: 10px;
+}
+
+.github,
+.addShortcut {
+    height: 50px;
+    width: 50px;
+    margin-top: 16px;
+    background-color: rgb(62, 60, 60);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.addShortcut {
+    font-size: 2rem;
+    background-color: #f0f8ff;
+    color: black;
+}
+
+p {
+    font-size: 16px;
+}
+
+.icon {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.icon_name {
+    font-size: 12px;
+    height: 112px;
+    width: 112px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon_name:hover {
+    background-color: #E5E4E2;
+    cursor: pointer;
+}
+
+.main {
+    margin: auto;
+    height: 200px;
+    width: 330px;
+}
+
+img {
+    height: 18vh;
+}
+
+svg {
+    height: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#hand{
+    width:40px;
+    height:40px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+#user{
+    width:40px;
+    height:40px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+span{
+    height: 35px;
+    width: 35px;
+    background-color: orange;
+    border-radius: 50%;
+    color:white;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+
+nav{
+    width:225px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 84%;
+}
+
+.gmail:hover,.images:hover{
+    text-decoration: underline black;
+}
+
+#hand:hover{
+    background-color: #E5E4E2;
+}
+
+#user:hover{
+    background-color: #E5E4E2;
+}
+
+footer{
+    height: 30px;
+    width:180px;
+    background-color: white;
+    border-radius: 30px;
+    color: rgb(91, 91, 240);
+    box-shadow: 1px 1px 3px rgb(94, 92, 92);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    position: fixed;
+    top: 770px;
+    left: 1240px;
+}
+
+#pencil{
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+}
+
+footer:hover{
+    background-color: #E5E4E2;
+    cursor: pointer;
+}
+
+button:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    box-shadow: 1px 3px 6px black;
+}
+
+.userBox{
+    height: 450px;
+    width: 380px;
+    background-color: #e9eef6;
+    z-index: 50;
+    position: absolute;
+    top: 60px;
+    left: 72%;
+    border-radius: 25px;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+}
+
+.userLogo{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    color: white;
+    background-color: orange;
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hovered{
+    display:flex;
+}
+
+.addAccount,.signOut{
+    height: 60px;
+    width: 160px;
+    background-color: white;
+    border-radius: 30px 0 0 30px;
+    margin: 1.5px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.signOut{
+    border-radius: 0 30px 30px 0;
+}
+
+.as{
+    display: flex;
+}
+
+.addAccount div,.signOut div{
+    font-size: 18px;
+    margin-left: 6px;
+}
+
+#addicon{
+    height: 20px;
+    width: 20px;
+    background-color: #e9eef6;
+    border-radius: 50%;
+    padding: 4px;
+}
+
+#sicon{
+    height: 25px;
+    width: 25px;
+}
+
+.addAccount:hover, .signOut:hover{
+    background-color: #dce1e8;
+    cursor: pointer;
+}
+
+.email{
+    font-size: 20px;
+    opacity: 60%;
+}
+
+.hi{
+    font-size: 25px;
+}
+
+.manage{
+    height:40px;
+    width: 250px;
+    border: 1px solid rgb(38, 37, 37);
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0957d0;
+    margin-bottom: 10px;
+}
+
+.manage:hover{
+    background-color: #d9e2f4;
+    cursor: pointer;
+}
+
+.footer{
+    width: 220px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+    color:rgb(0, 0, 0);
+}
+
+.privacy:hover{
+    width:fit-content;
+    background-color: #dce1e8;
+    cursor: pointer;
+}
+
+.term:hover{
+    width: fit-content;
+    background-color:  #dce1e8;
+    cursor: pointer;
+}
+
+#pen{
+    position: absolute;
+    z-index: 30;
+    height: 20px;
+    width: 20px;
+    top: 120px;
+    left: 204px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+#pen:hover{
+    cursor:pointer;
+    background-color: #dce1e8;
+}
